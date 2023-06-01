@@ -1,0 +1,46 @@
+.navbar {
+    box-sizing: border-box;
+
+    position: fixed;
+    z-index: 99;
+
+    height: 90px;
+    /* width: 725px; */
+    width: 100%;
+
+    padding: 10px;
+    padding-left: 38px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    /* background-color: white; */
+}
+
+.nav-logo {
+    height: 100%;
+    width: 300px;
+
+    background-image: url("../assets/gastby-logo-transparent-dark.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+
+    margin-right: 90px;
+
+    color: white;
+}
+
+.nav-link {
+    list-style: none;
+
+    font-size: 20px;
+}

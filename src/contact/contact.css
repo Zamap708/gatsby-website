@@ -1,0 +1,34 @@
+.contact {
+    justify-content: flex-end;
+    /* background-color: #242424; */
+    color: #242424;
+    background-color: white;
+}
+
+.socMed {
+    /* background-color: #242424; */
+    color: white;
+}
+
+.contact-accent-img {
+    width: 580px;
+    height: 100%;
+    
+    background-color: red;
+}
+
+.contact-img {
+    background-image: url("../assets/contact-img.jpg");
+    background-position: center;
+    background-size: cover;
+    /* border-top-left-radius: 5px; */
+    /* border-radius: 50%; */
+
+}
+
+.contact-text-wrapper {
+    box-sizing: border-box;
+    width: 900px;
+
+    padding: 0 75px;
+}

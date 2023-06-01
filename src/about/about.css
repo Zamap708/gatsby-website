@@ -1,0 +1,23 @@
+.about {
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.about-img {
+    height: 90%;
+
+    margin: auto 0;
+
+    background-image: url("../assets/about-img.jpg");
+    background-position: center;
+    background-size: cover;
+
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.about-content {
+    box-sizing: border-box;
+    padding-top: 20px;
+    border-top: 2px solid rgb(248, 209, 65);
+}
